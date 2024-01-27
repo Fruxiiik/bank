@@ -1,7 +1,7 @@
 .root {
-  background-color: #fff;
-  padding: 10px 0;
-  border-bottom: 1px solid #e0e0e0;
+  background-color: #ffdd2d;
+  padding: 15px 0;
+  border-bottom: 1px solid black;
   margin-bottom: 30px;
 }
 
@@ -11,25 +11,29 @@
 }
 
 .logo {
-  background-color: black;
-  color: #fff;
-  font-weight: 700;
+  color: black;
+  font-weight: 900;
   line-height: 35px;
   text-transform: uppercase;
   letter-spacing: 0.15px;
   border-radius: 5px;
-  padding: 0 10px;
+  padding: 0 15px;
   text-decoration: none;
+  transition: transform 0.4s;
 
   &:hover {
-    background-color: #4361ee;
+    transform: scale(1.1)  // Change the text color on hover
   }
 }
 
 .buttons {
   button {
+    background-color: black;
     margin-left: 10px;
+    color: white;
+    transition: all 0.5s;
   }
+
 
   a {
     text-decoration: none;
